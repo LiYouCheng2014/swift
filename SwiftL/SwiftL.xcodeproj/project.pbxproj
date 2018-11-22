@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0B0CDAF2B74A07A7B35866E4 /* Pods_SwiftLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98ADC073ADA22B276E335EC /* Pods_SwiftLUITests.framework */; };
+		7B2736B621A6A86900161DE8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736B521A6A86900161DE8 /* SignupViewController.swift */; };
+		7B2736B821A6A88200161DE8 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736B721A6A88200161DE8 /* SignupViewModel.swift */; };
+		7B2736BA21A6AE3200161DE8 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736B921A6AE3200161DE8 /* Protocol.swift */; };
+		7B2736BC21A6B20100161DE8 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736BB21A6B20100161DE8 /* ActivityIndicator.swift */; };
+		7B2736BE21A6B37E00161DE8 /* DefaultImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736BD21A6B37E00161DE8 /* DefaultImplementations.swift */; };
+		7B2736C021A6B3C700161DE8 /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736BF21A6B3C700161DE8 /* Wireframe.swift */; };
+		7B2736C221A6B47600161DE8 /* BindingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736C121A6B47600161DE8 /* BindingExtension.swift */; };
+		7B2736C421A6B4EF00161DE8 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736C321A6B4EF00161DE8 /* String+URL.swift */; };
 		7BA99C2221A5453300B0C94F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA99C2121A5453300B0C94F /* AppDelegate.swift */; };
 		7BA99C2421A5453300B0C94F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA99C2321A5453300B0C94F /* ViewController.swift */; };
 		7BA99C2721A5453300B0C94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA99C2521A5453300B0C94F /* Main.storyboard */; };
@@ -42,6 +50,14 @@
 		199792EE6B0AF52A1A849A43 /* Pods-SwiftLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLTests/Pods-SwiftLTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A528C438F9803849DDF2FD0 /* Pods-SwiftLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLUITests/Pods-SwiftLUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3EB691B742E29EE713C2392A /* Pods-SwiftL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftL/Pods-SwiftL.debug.xcconfig"; sourceTree = "<group>"; };
+		7B2736B521A6A86900161DE8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		7B2736B721A6A88200161DE8 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		7B2736B921A6AE3200161DE8 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		7B2736BB21A6B20100161DE8 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		7B2736BD21A6B37E00161DE8 /* DefaultImplementations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultImplementations.swift; sourceTree = "<group>"; };
+		7B2736BF21A6B3C700161DE8 /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		7B2736C121A6B47600161DE8 /* BindingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExtension.swift; sourceTree = "<group>"; };
+		7B2736C321A6B4EF00161DE8 /* String+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+URL.swift"; sourceTree = "<group>"; };
 		7BA99C1E21A5453300B0C94F /* SwiftL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA99C2121A5453300B0C94F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BA99C2321A5453300B0C94F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +119,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7B2736C521A6B65800161DE8 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				7B2736B521A6A86900161DE8 /* SignupViewController.swift */,
+				7B2736B721A6A88200161DE8 /* SignupViewModel.swift */,
+				7B2736B921A6AE3200161DE8 /* Protocol.swift */,
+				7B2736BD21A6B37E00161DE8 /* DefaultImplementations.swift */,
+				7B2736C121A6B47600161DE8 /* BindingExtension.swift */,
+				7B2736C321A6B4EF00161DE8 /* String+URL.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		7B2736C621A6B66800161DE8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7BA99C4F21A54F0E00B0C94F /* LoginViewController.swift */,
+				7BA99C5221A56C4600B0C94F /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7B2736C721A6BE1E00161DE8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7B2736BB21A6B20100161DE8 /* ActivityIndicator.swift */,
+				7B2736BF21A6B3C700161DE8 /* Wireframe.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		7BA99C1521A5453300B0C94F = {
 			isa = PBXGroup;
 			children = (
@@ -130,8 +177,9 @@
 			children = (
 				7BA99C2121A5453300B0C94F /* AppDelegate.swift */,
 				7BA99C2321A5453300B0C94F /* ViewController.swift */,
-				7BA99C4F21A54F0E00B0C94F /* LoginViewController.swift */,
-				7BA99C5221A56C4600B0C94F /* LoginViewModel.swift */,
+				7B2736C721A6BE1E00161DE8 /* Services */,
+				7B2736C621A6B66800161DE8 /* Login */,
+				7B2736C521A6B65800161DE8 /* Signup */,
 				7BA99C2521A5453300B0C94F /* Main.storyboard */,
 				7BA99C2821A5453C00B0C94F /* Assets.xcassets */,
 				7BA99C2A21A5453C00B0C94F /* LaunchScreen.storyboard */,
@@ -385,8 +433,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2736C021A6B3C700161DE8 /* Wireframe.swift in Sources */,
+				7B2736B821A6A88200161DE8 /* SignupViewModel.swift in Sources */,
 				7BA99C5321A56C4600B0C94F /* LoginViewModel.swift in Sources */,
+				7B2736C221A6B47600161DE8 /* BindingExtension.swift in Sources */,
 				7BA99C5021A54F0E00B0C94F /* LoginViewController.swift in Sources */,
+				7B2736BA21A6AE3200161DE8 /* Protocol.swift in Sources */,
+				7B2736BC21A6B20100161DE8 /* ActivityIndicator.swift in Sources */,
+				7B2736B621A6A86900161DE8 /* SignupViewController.swift in Sources */,
+				7B2736C421A6B4EF00161DE8 /* String+URL.swift in Sources */,
+				7B2736BE21A6B37E00161DE8 /* DefaultImplementations.swift in Sources */,
 				7BA99C2421A5453300B0C94F /* ViewController.swift in Sources */,
 				7BA99C2221A5453300B0C94F /* AppDelegate.swift in Sources */,
 			);

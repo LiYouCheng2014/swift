@@ -75,4 +75,9 @@ class LoginViewController: UIViewController {
         alertControl.addAction(action)
         self.present(alertControl, animated: true, completion: nil)
     }
+    
+    
+    @IBAction func signup(_ sender: Any) {
+        
+    }
 }
