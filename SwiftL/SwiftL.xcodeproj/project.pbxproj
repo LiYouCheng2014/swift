@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B0CDAF2B74A07A7B35866E4 /* Pods_SwiftLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98ADC073ADA22B276E335EC /* Pods_SwiftLUITests.framework */; };
 		7B2736B621A6A86900161DE8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736B521A6A86900161DE8 /* SignupViewController.swift */; };
 		7B2736B821A6A88200161DE8 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736B721A6A88200161DE8 /* SignupViewModel.swift */; };
 		7B2736BA21A6AE3200161DE8 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736B921A6AE3200161DE8 /* Protocol.swift */; };
@@ -25,7 +24,6 @@
 		7BA99C2921A5453C00B0C94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA99C2821A5453C00B0C94F /* Assets.xcassets */; };
 		7BA99C2C21A5453C00B0C94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA99C2A21A5453C00B0C94F /* LaunchScreen.storyboard */; };
 		7BA99C3721A5453F00B0C94F /* SwiftLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA99C3621A5453F00B0C94F /* SwiftLTests.swift */; };
-		7BA99C4221A5453F00B0C94F /* SwiftLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA99C4121A5453F00B0C94F /* SwiftLUITests.swift */; };
 		7BA99C5021A54F0E00B0C94F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA99C4F21A54F0E00B0C94F /* LoginViewController.swift */; };
 		7BA99C5321A56C4600B0C94F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA99C5221A56C4600B0C94F /* LoginViewModel.swift */; };
 		8DA811326AB927BF235CC19B /* Pods_SwiftL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3E0F087A452251303DD9D8 /* Pods_SwiftL.framework */; };
@@ -34,13 +32,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		7BA99C3321A5453E00B0C94F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BA99C1621A5453300B0C94F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BA99C1D21A5453300B0C94F;
-			remoteInfo = SwiftL;
-		};
-		7BA99C3E21A5453F00B0C94F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7BA99C1621A5453300B0C94F /* Project object */;
 			proxyType = 1;
@@ -74,7 +65,6 @@
 		7BA99C3221A5453E00B0C94F /* SwiftLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA99C3621A5453F00B0C94F /* SwiftLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLTests.swift; sourceTree = "<group>"; };
 		7BA99C3821A5453F00B0C94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BA99C3D21A5453F00B0C94F /* SwiftLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA99C4121A5453F00B0C94F /* SwiftLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLUITests.swift; sourceTree = "<group>"; };
 		7BA99C4321A5453F00B0C94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BA99C4F21A54F0E00B0C94F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -101,14 +91,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE72EDE7A5CC5897355B8905 /* Pods_SwiftLTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BA99C3A21A5453F00B0C94F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B0CDAF2B74A07A7B35866E4 /* Pods_SwiftLUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +175,6 @@
 			children = (
 				7BA99C1E21A5453300B0C94F /* SwiftL.app */,
 				7BA99C3221A5453E00B0C94F /* SwiftLTests.xctest */,
-				7BA99C3D21A5453F00B0C94F /* SwiftLUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -285,25 +266,6 @@
 			productReference = 7BA99C3221A5453E00B0C94F /* SwiftLTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7BA99C3C21A5453F00B0C94F /* SwiftLUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7BA99C4C21A5453F00B0C94F /* Build configuration list for PBXNativeTarget "SwiftLUITests" */;
-			buildPhases = (
-				8B9E806809B31892F78F8E76 /* [CP] Check Pods Manifest.lock */,
-				7BA99C3921A5453F00B0C94F /* Sources */,
-				7BA99C3A21A5453F00B0C94F /* Frameworks */,
-				7BA99C3B21A5453F00B0C94F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7BA99C3F21A5453F00B0C94F /* PBXTargetDependency */,
-			);
-			name = SwiftLUITests;
-			productName = SwiftLUITests;
-			productReference = 7BA99C3D21A5453F00B0C94F /* SwiftLUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -318,10 +280,6 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					7BA99C3121A5453E00B0C94F = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 7BA99C1D21A5453300B0C94F;
-					};
-					7BA99C3C21A5453F00B0C94F = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 7BA99C1D21A5453300B0C94F;
 					};
@@ -342,7 +300,6 @@
 			targets = (
 				7BA99C1D21A5453300B0C94F /* SwiftL */,
 				7BA99C3121A5453E00B0C94F /* SwiftLTests */,
-				7BA99C3C21A5453F00B0C94F /* SwiftLUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -359,13 +316,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7BA99C3021A5453E00B0C94F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BA99C3B21A5453F00B0C94F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -395,24 +345,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftL/Pods-SwiftL-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8B9E806809B31892F78F8E76 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftLUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C8B230D2ADBAAAA9F4B3E1F1 /* [CP] Check Pods Manifest.lock */ = {
@@ -484,14 +416,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BA99C3921A5453F00B0C94F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7BA99C4221A5453F00B0C94F /* SwiftLUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -499,11 +423,6 @@
 			isa = PBXTargetDependency;
 			target = 7BA99C1D21A5453300B0C94F /* SwiftL */;
 			targetProxy = 7BA99C3321A5453E00B0C94F /* PBXContainerItemProxy */;
-		};
-		7BA99C3F21A5453F00B0C94F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7BA99C1D21A5453300B0C94F /* SwiftL */;
-			targetProxy = 7BA99C3E21A5453F00B0C94F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -650,6 +569,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = SwiftL/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -670,6 +590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = SwiftL/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -687,11 +608,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 199792EE6B0AF52A1A849A43 /* Pods-SwiftLTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = SwiftLTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -709,11 +632,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE7CD1964D2D507A02502C2A /* Pods-SwiftLTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = SwiftLTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -724,48 +649,6 @@
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftL.app/SwiftL";
-			};
-			name = Release;
-		};
-		7BA99C4D21A5453F00B0C94F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A528C438F9803849DDF2FD0 /* Pods-SwiftLUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7LPWK7MV6D;
-				INFOPLIST_FILE = SwiftLUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.gigahome.SwiftLUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftL;
-			};
-			name = Debug;
-		};
-		7BA99C4E21A5453F00B0C94F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE3AE5ABF1F57B06B5814E89 /* Pods-SwiftLUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7LPWK7MV6D;
-				INFOPLIST_FILE = SwiftLUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.gigahome.SwiftLUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftL;
 			};
 			name = Release;
 		};
@@ -795,15 +678,6 @@
 			buildConfigurations = (
 				7BA99C4A21A5453F00B0C94F /* Debug */,
 				7BA99C4B21A5453F00B0C94F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7BA99C4C21A5453F00B0C94F /* Build configuration list for PBXNativeTarget "SwiftLUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7BA99C4D21A5453F00B0C94F /* Debug */,
-				7BA99C4E21A5453F00B0C94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
