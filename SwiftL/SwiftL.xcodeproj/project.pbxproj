@@ -18,6 +18,11 @@
 		7B2736CB21A7976500161DE8 /* ToDoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736CA21A7976500161DE8 /* ToDoStore.swift */; };
 		7B2736CD21A797D400161DE8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736CC21A797D400161DE8 /* TableViewController.swift */; };
 		7B2736CF21A79AB400161DE8 /* TableViewInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2736CE21A79AB400161DE8 /* TableViewInputCell.swift */; };
+		7B8AC96921A7EC3C00C8577F /* TableViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8AC96821A7EC3C00C8577F /* TableViewControllerDataSource.swift */; };
+		7B8AC96B21A7ECB000C8577F /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8AC96A21A7ECB000C8577F /* Store.swift */; };
+		7B8AC96E21A7EED700C8577F /* JZYIToDoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8AC96D21A7EED700C8577F /* JZYIToDoListVC.swift */; };
+		7B8AC97021A7F42D00C8577F /* JZYIToDoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8AC96F21A7F42D00C8577F /* JZYIToDoStore.swift */; };
+		7B8AC97221A7F4C600C8577F /* JZYI NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8AC97121A7F4C600C8577F /* JZYI NetworkService.swift */; };
 		7BA99C2221A5453300B0C94F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA99C2121A5453300B0C94F /* AppDelegate.swift */; };
 		7BA99C2421A5453300B0C94F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA99C2321A5453300B0C94F /* ViewController.swift */; };
 		7BA99C2721A5453300B0C94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA99C2521A5453300B0C94F /* Main.storyboard */; };
@@ -55,6 +60,11 @@
 		7B2736CA21A7976500161DE8 /* ToDoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoStore.swift; sourceTree = "<group>"; };
 		7B2736CC21A797D400161DE8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		7B2736CE21A79AB400161DE8 /* TableViewInputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewInputCell.swift; sourceTree = "<group>"; };
+		7B8AC96821A7EC3C00C8577F /* TableViewControllerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerDataSource.swift; sourceTree = "<group>"; };
+		7B8AC96A21A7ECB000C8577F /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		7B8AC96D21A7EED700C8577F /* JZYIToDoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZYIToDoListVC.swift; sourceTree = "<group>"; };
+		7B8AC96F21A7F42D00C8577F /* JZYIToDoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZYIToDoStore.swift; sourceTree = "<group>"; };
+		7B8AC97121A7F4C600C8577F /* JZYI NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JZYI NetworkService.swift"; sourceTree = "<group>"; };
 		7BA99C1E21A5453300B0C94F /* SwiftL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA99C2121A5453300B0C94F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BA99C2321A5453300B0C94F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -152,10 +162,22 @@
 			isa = PBXGroup;
 			children = (
 				7B2736CA21A7976500161DE8 /* ToDoStore.swift */,
+				7B8AC96A21A7ECB000C8577F /* Store.swift */,
 				7B2736CC21A797D400161DE8 /* TableViewController.swift */,
 				7B2736CE21A79AB400161DE8 /* TableViewInputCell.swift */,
+				7B8AC96821A7EC3C00C8577F /* TableViewControllerDataSource.swift */,
 			);
 			path = MVC;
+			sourceTree = "<group>";
+		};
+		7B8AC96C21A7EEA200C8577F /* MVC2 */ = {
+			isa = PBXGroup;
+			children = (
+				7B8AC96D21A7EED700C8577F /* JZYIToDoListVC.swift */,
+				7B8AC96F21A7F42D00C8577F /* JZYIToDoStore.swift */,
+				7B8AC97121A7F4C600C8577F /* JZYI NetworkService.swift */,
+			);
+			path = MVC2;
 			sourceTree = "<group>";
 		};
 		7BA99C1521A5453300B0C94F = {
@@ -184,6 +206,7 @@
 			children = (
 				7BA99C2121A5453300B0C94F /* AppDelegate.swift */,
 				7BA99C2321A5453300B0C94F /* ViewController.swift */,
+				7B8AC96C21A7EEA200C8577F /* MVC2 */,
 				7B2736C921A796FA00161DE8 /* MVC */,
 				7B2736C821A796E600161DE8 /* MVVM */,
 				7BA99C2521A5453300B0C94F /* Main.storyboard */,
@@ -390,15 +413,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8AC96921A7EC3C00C8577F /* TableViewControllerDataSource.swift in Sources */,
+				7B8AC97221A7F4C600C8577F /* JZYI NetworkService.swift in Sources */,
 				7B2736C021A6B3C700161DE8 /* Wireframe.swift in Sources */,
 				7B2736CD21A797D400161DE8 /* TableViewController.swift in Sources */,
 				7B2736CB21A7976500161DE8 /* ToDoStore.swift in Sources */,
 				7B2736B821A6A88200161DE8 /* SignupViewModel.swift in Sources */,
+				7B8AC97021A7F42D00C8577F /* JZYIToDoStore.swift in Sources */,
 				7BA99C5321A56C4600B0C94F /* LoginViewModel.swift in Sources */,
 				7B2736C221A6B47600161DE8 /* BindingExtension.swift in Sources */,
 				7BA99C5021A54F0E00B0C94F /* LoginViewController.swift in Sources */,
 				7B2736BA21A6AE3200161DE8 /* Protocol.swift in Sources */,
 				7B2736BC21A6B20100161DE8 /* ActivityIndicator.swift in Sources */,
+				7B8AC96E21A7EED700C8577F /* JZYIToDoListVC.swift in Sources */,
+				7B8AC96B21A7ECB000C8577F /* Store.swift in Sources */,
 				7B2736B621A6A86900161DE8 /* SignupViewController.swift in Sources */,
 				7B2736C421A6B4EF00161DE8 /* String+URL.swift in Sources */,
 				7B2736BE21A6B37E00161DE8 /* DefaultImplementations.swift in Sources */,
